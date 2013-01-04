@@ -5,7 +5,7 @@ via [mauricerkelly](https://github.com/mauricerkelly/dotfiles).
 
 ## install
 
-- `git clone git://github.com/mauricerkelly/dotfiles ~/.dotfiles`
+- `git clone git://github.com/marramgrass/dotfiles ~/.dotfiles`
 - `cd ~/.dotfiles`
 - `vi bash/bashrc.symlink` (tweak this up if necessary)
 - `rake install` (you'll need the Ruby tool `rake` for this)
