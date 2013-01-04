@@ -1,6 +1,7 @@
-# mauricerkelly does dotfiles
+# marramgrass does dotfiles
 
-This personal home directory configuration system is based off [holman's dotfiles](https://github.com/holman/dotfiles). It has been slimmed down to suit my own needs, tweaked, and "ported" to bash, because I couldn't be bothered with `zsh`.
+This personal home directory configuration system is based off [holman's dotfiles](https://github.com/holman/dotfiles),
+via [mauricerkelly](https://github.com/mauricerkelly/dotfiles).
 
 ## install
 
@@ -38,7 +39,3 @@ There's a few special files in the hierarchy.
   symlinked in when you run `rake install`.
 - **topic/\completions**: Any files called in `completions` get loaded
   last so that they get loaded after we set up zsh autocomplete functions.
-
-## thanks
-
-Like Zach Holman before me, I forked this `dotfiles` from his and have since made it my own. It was very useful as a starting point, and as an inspiration to start syncing my `dotfiles` from Linux to OS X.
