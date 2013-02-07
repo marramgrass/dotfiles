@@ -1,0 +1,3 @@
+lg () {
+        echo "$@" | dayone new
+}
