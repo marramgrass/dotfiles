@@ -1,4 +1,5 @@
 add_to_path ~/.dotfiles/bin
+add_to_path ~/bin
 
 # Android dev
 add_to_path ~/android-sdk-macosx/tools
