@@ -12,3 +12,8 @@ alias gmm='git merge --ff origin/master'
 alias gca='git commit -a'
 alias gcm='git checkout master'
 alias gsu='git submodule update'
+
+alias v='vagrant'
+alias vu='vagrant up'
+alias vh='vagrant halt'
+alias vdf='vagrant destroy -f'
