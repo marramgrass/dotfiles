@@ -1,6 +1,6 @@
 [user]
 	name = Mark Goody
-	email = mark@unexpectedlyspiky.com
+	email = mgoody@shopkeep.com
 [core]
 	quotepath = false
 	excludesfile = ~/.gitignore
