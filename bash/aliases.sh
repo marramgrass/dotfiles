@@ -1,4 +1,3 @@
-alias bb='bbedit --project'
 alias ll='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
@@ -6,6 +5,7 @@ alias ddd='rm -rfv ~/Library/Developer/Xcode/DerivedData && rm -rfv ~/Library/Ca
 alias cls='clear'
 
 alias g='git'
+alias gc='git commit'
 alias gs='git status'
 alias gf='git fetch'
 alias gmm='git merge --ff origin/master'
