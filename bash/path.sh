@@ -17,6 +17,3 @@ add_to_path /usr/local/opt/go/libexec/bin
 export GOPATH=$HOME/go
 add_to_path $GOPATH
 
-# nvm
-export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh

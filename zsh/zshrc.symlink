@@ -15,10 +15,25 @@ if [[ -e $DOTFILES/functions ]]; then
     done
 fi
 
-if [[ -e $DOTFILES/shell/path.sh ]]; then
-    source $DOTFILES/shell/path.sh
+if [ -e $DOTFILES/bash/functions ]; then
+    for functions_file in `ls $DOTFILES/bash/functions/*.sh`;
+        do source $functions_file;
+    done
 fi
 
+# use .localrc for machine specific configuration
+if [ -f $HOME/.localrc ]; then
+  . $HOME/.localrc
+fi
+
+# source every .sh file in this rep
+for config_file in `ls $DOTFILES/*/*.sh`; do source $config_file; done
+
+# load every completion after autocomplete loads
+for config_file in `ls $DOTFILES/*/completions`; do source $config_file; done
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
 export ZSH_CUSTOM="$DOTFILES/zsh-custom"
 
 source $ZSH/oh-my-zsh.sh
