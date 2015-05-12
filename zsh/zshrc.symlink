@@ -26,3 +26,6 @@ source $ZSH/oh-my-zsh.sh
 for alias_file in `ls $DOTFILES/*/aliases.sh`; do source $alias_file; done
 
 export HISTCONTROL=ignoreboth:erasedups
+
+# set up hub
+eval "$(hub alias -s)"
