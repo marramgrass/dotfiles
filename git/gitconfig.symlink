@@ -25,3 +25,4 @@
 [alias]
 	co = checkout
 	m = merge
+	pr = pull-request
