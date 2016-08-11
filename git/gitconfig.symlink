@@ -1,6 +1,6 @@
 [user]
 	name = Mark Goody
-	email = mgoody@shopkeep.com
+	email = mark@twoshoes.org.uk
 [core]
 	quotepath = false
 	excludesfile = ~/.gitignore
