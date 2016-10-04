@@ -21,7 +21,7 @@
 [mergetool "p4mergetool"]
         cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge $PWD/$BASE $PWD/$REMOTE $PWD/$LOCAL $PWD/$MERGED
 [merge]
-	tool = Kaleidoscope
+	tool = p4mergetool
 [alias]
 	co = checkout
 	m = merge
