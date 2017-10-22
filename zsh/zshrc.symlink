@@ -46,4 +46,3 @@ export HISTCONTROL=ignoreboth:erasedups
 eval "$(hub alias -s)"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-export EDITOR="/usr/local/bin/vim"
