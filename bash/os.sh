@@ -32,4 +32,5 @@ elif [ $OPERSYS=="Darwin" ]; then
     export OS_IND="OS X"
     export PLATFORM="MacOSX"
     export OSX_VERS=`sw_vers | grep 'ProductVersion:' | grep -o '[0-9]*\.[0-9]*\.[0-9]*'`
+    export EDITOR="/usr/local/bin/nvim"
 fi
