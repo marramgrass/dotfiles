@@ -3,7 +3,7 @@
 	email = mark@twoshoes.org.uk
 [core]
 	quotepath = false
-	excludesfile = ~/.gitignore
+	excludesfile = /Users/mark/.gitignore
 [color]
 	ui = true
 [mergetool]
