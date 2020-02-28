@@ -1,2 +1,6 @@
 command alias reveal_load expr (Class)NSClassFromString(@"IBARevealLoader") == nil ? (void *)dlopen("/Applications/Reveal.app/Contents/SharedSupport/iOS-Libraries/RevealServer.framework/RevealServer", 0x2) : ((void*)0)
 command alias reveal_start expr (void)[(NSNotificationCenter*)[NSNotificationCenter defaultCenter] postNotificationName:@"IBARevealRequestStart" object:nil]
+
+### Reveal LLDB commands support - DO NOT MODIFY
+command script import /Users/mark/Library/Application\ Support/Reveal/RevealServerCommands.py
+###

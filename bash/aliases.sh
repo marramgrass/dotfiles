@@ -19,3 +19,6 @@ alias v='vagrant'
 alias vu='vagrant up'
 alias vh='vagrant halt'
 alias vdf='vagrant destroy -f'
+
+alias w='cd ~/Documents/GoReport'
+alias dc='w; cd ./docker-compose-files'
