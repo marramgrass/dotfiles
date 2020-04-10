@@ -45,7 +45,6 @@ export HISTCONTROL=ignoreboth:erasedups
 # set up hub
 eval "$(hub alias -s)"
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export EDITOR="/usr/local/bin/nvim"
 
 . $(brew --prefix asdf)/asdf.sh
