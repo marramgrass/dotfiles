@@ -1,0 +1,24 @@
+# remap prefix
+unbind C-b
+set-option -g prefix C-a
+bind-key C-a send-prefix
+
+# stop auto renaming of windows
+set-option -g allow-rename off
+
+# vi mode
+set-window-option -g mode-keys vi
+bind-key -T copy-mode-vi 'v' send -X begin-selection
+bind-key -T copy-mode-vi 'y' send -X copy-selection-and-cancel
+
+# quick reload of config
+bind r source-file ~/.tmux.conf
+
+# mouse scrolling in copy mode, sucks otherwise
+set -g mouse on
+
+# copy to system pasteboard as well as tmux buffer
+bind -T copy-mode-vi Enter send-keys -X copy-pipe-and-cancel "pbcopy"
+
+# turn off confirmations for killing panes
+bind-key x kill-pane
