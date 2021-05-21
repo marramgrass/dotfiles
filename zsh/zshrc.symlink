@@ -44,9 +44,6 @@ for alias_file in `ls $DOTFILES/*/aliases.sh`; do source $alias_file; done
 
 export HISTCONTROL=ignoreboth:erasedups
 
-# set up hub
-eval "$(hub alias -s)"
-
 export EDITOR="/usr/bin/vim"
 
 . $(brew --prefix asdf)/asdf.sh
