@@ -22,3 +22,6 @@ bind -T copy-mode-vi Enter send-keys -X copy-pipe-and-cancel "pbcopy"
 
 # turn off confirmations for killing panes
 bind-key x kill-pane
+
+# start pane numbering at 1
+set -g base-index 1
