@@ -5,7 +5,7 @@ COMPLETION_WAITING_DOTS="true"
 
 autoload -Uz compinit && compinit
 
-plugins=(git brew brew-cask osx rvm pod gitfast gem dirhistory bundler rails zsh_reload rake cake)
+plugins=(git brew brew-cask osx rvm pod gitfast gem dirhistory bundler rails zsh_reload rake cake fzf)
 
 # User configuration
 export DOTFILES="$HOME/.dotfiles"
@@ -50,3 +50,6 @@ export EDITOR="/usr/bin/vim"
 
 # vim navigation bindings!
 bindkey -v
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
