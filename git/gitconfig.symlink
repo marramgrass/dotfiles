@@ -25,3 +25,7 @@
 [alias]
 	co = checkout
 	m = merge
+[pull]
+	rebase = false
+[init]
+	defaultBranch = main

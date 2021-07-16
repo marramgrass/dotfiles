@@ -25,3 +25,7 @@ bind-key x kill-pane
 
 # start pane numbering at 1
 set -g base-index 1
+
+# automatically renumber windows
+set-option -g renumber-windows on
+
