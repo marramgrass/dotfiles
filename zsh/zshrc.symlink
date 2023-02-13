@@ -34,8 +34,6 @@ for config_file in `ls $DOTFILES/*/*.sh`; do source $config_file; done
 # load every completion after autocomplete loads
 for config_file in `ls $DOTFILES/*/completions`; do source $config_file; done
 
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
 export ZSH_CUSTOM="$DOTFILES/zsh-custom"
 
 source $ZSH/oh-my-zsh.sh
