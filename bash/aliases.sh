@@ -14,6 +14,8 @@ alias gca='git commit -a'
 alias gcm='git checkout main'
 alias gsu='git submodule update'
 
+alias lg='lazygit'
+
 alias be='bundle exec'
 
 alias v='vagrant'
