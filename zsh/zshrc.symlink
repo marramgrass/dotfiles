@@ -42,7 +42,8 @@ for alias_file in `ls $DOTFILES/*/aliases.sh`; do source $alias_file; done
 
 export HISTCONTROL=ignoreboth:erasedups
 
-export EDITOR="/usr/bin/vim"
+export EDITOR="/usr/bin/nvim"
+export WORKING="~/Documents/GoReport"
 
 export ARCHFLAGS="-arch arm64"
 
