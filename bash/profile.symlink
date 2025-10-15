@@ -5,3 +5,5 @@ export WORKING="~/Documents/GoReport"
 
 
 . "$HOME/.cargo/env"
+
+. "$HOME/.local/bin/env"

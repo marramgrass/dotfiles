@@ -17,3 +17,6 @@ add_to_path /usr/local/opt/go/libexec/bin
 export GOPATH=$HOME/go
 add_to_path $GOPATH
 add_to_path $GOPATH/bin
+
+# uv
+add_to_path ~/.local/bin
